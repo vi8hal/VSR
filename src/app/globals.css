@@ -84,10 +84,10 @@
     content: '';
     position: fixed;
     inset: 0;
-    background-image: linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px),
-      linear-gradient(rgba(0, 255, 65, 0.015) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0, 255, 65, 0.015) 1px, transparent 1px);
+    background-image: linear-gradient(rgba(0, 255, 65, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 65, 0.05) 1px, transparent 1px),
+      linear-gradient(rgba(0, 255, 65, 0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 255, 65, 0.025) 1px, transparent 1px);
     background-size: 80px 80px, 80px 80px, 20px 20px, 20px 20px;
     pointer-events: none;
     z-index: 0;

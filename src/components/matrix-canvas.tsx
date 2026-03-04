@@ -50,7 +50,7 @@ const MatrixCanvas = () => {
     <canvas
       ref={canvasRef}
       id="matrix-canvas"
-      className="fixed inset-0 opacity-[0.09] z-0 pointer-events-none"
+      className="fixed inset-0 opacity-[0.12] z-0 pointer-events-none"
     />
   );
 };

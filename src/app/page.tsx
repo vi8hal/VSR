@@ -10,14 +10,24 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
+      <div className="py-8">
+        <Hero />
+      </div>
       <div className="container">
         <StatsBar />
       </div>
-      <SkillsSection />
-      <ProjectsSection />
-      <ExperienceSection />
-      <ContactSection />
+      <div className="py-8">
+        <SkillsSection />
+      </div>
+      <div className="py-8">
+        <ProjectsSection />
+      </div>
+      <div className="py-8">
+        <ExperienceSection />
+      </div>
+      <div className="py-8">
+        <ContactSection />
+      </div>
     </>
   );
 }
