@@ -40,7 +40,7 @@ const PromptLine = ({
 
 const Hero = () => {
   return (
-    <section className="py-7">
+    <section className="py-6">
       <div className="container">
         <div className="bg-black/80 border border-custom-border-bright overflow-hidden relative shadow-[0_0_0_1px_rgba(0,255,65,0.05),_0_0_30px_rgba(0,255,65,0.12),_0_0_80px_rgba(0,255,65,0.04),_inset_0_0_60px_rgba(0,0,0,0.6)] before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-br before:from-primary/5 before:to-transparent before:pointer-events-none">
           <TerminalHeader />

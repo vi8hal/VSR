@@ -28,7 +28,7 @@ const TimelineItem = ({ item }: { item: Experience }) => (
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-8 border-t border-primary/5">
+    <section id="experience" className="py-6 border-t border-primary/5">
       <div className="container">
         <SectionHeader num="03" tag="WORK_HISTORY" />
         <div className="relative before:content-[''] before:absolute before:left-0 before:top-0 before:bottom-0 before:w-px before:bg-gradient-to-b before:from-primary before:to-primary/20 before:shadow-green-glow">

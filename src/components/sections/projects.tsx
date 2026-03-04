@@ -51,7 +51,7 @@ const ProjectCard = ({ project }: { project: Project }) => (
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-8 border-t border-primary/5">
+    <section id="projects" className="py-6 border-t border-primary/5">
       <div className="container">
         <SectionHeader num="02" tag="PROJECT_ARCHIVES" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5">

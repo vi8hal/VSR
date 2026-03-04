@@ -58,7 +58,7 @@ const StatsBar = () => {
   return (
     <div
       ref={containerRef}
-      className="grid grid-cols-2 md:grid-cols-4 gap-px bg-custom-border border border-custom-border my-4"
+      className="grid grid-cols-2 md:grid-cols-4 gap-px bg-custom-border border border-custom-border my-3"
     >
       {STATS.map((stat, index) => (
          <div key={index} className="bg-background p-3 text-center transition-colors duration-200 relative overflow-hidden before:content-[''] before:absolute before:bottom-0 before:left-0 before:right-0 before:h-0.5 before:bg-primary before:scale-x-0 before:transition-transform before:duration-300 hover:bg-primary/5 hover:before:scale-x-100">

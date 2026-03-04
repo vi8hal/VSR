@@ -37,7 +37,7 @@ const ContactInfo = () => (
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-8 border-t border-primary/5">
+    <section id="contact" className="py-6 border-t border-primary/5">
       <div className="container">
         <SectionHeader num="04" tag="ESTABLISH_CONNECTION" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7">

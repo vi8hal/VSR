@@ -48,7 +48,7 @@ const SkillBar = ({ skill }: { skill: Skill }) => {
 
 const SkillsSection = () => {
   return (
-    <section id="skills" className="py-8 border-t border-primary/5">
+    <section id="skills" className="py-6 border-t border-primary/5">
       <div className="container">
         <SectionHeader num="01" tag="SKILL_MATRIX" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
