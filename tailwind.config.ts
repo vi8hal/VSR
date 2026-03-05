@@ -17,7 +17,7 @@ export default {
     },
     extend: {
       fontSize: {
-        'clamp-hero': 'clamp(2.5rem, 10vw, 6rem)',
+        'clamp-hero': 'clamp(2.2rem, 9vw, 5.5rem)',
       },
       fontFamily: {
         body: ['"Share Tech Mono"', 'monospace'],
