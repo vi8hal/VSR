@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="bg-black/80 border border-custom-border-bright overflow-hidden relative shadow-[0_0_0_1px_rgba(0,255,65,0.05),_0_0_30px_rgba(0,255,65,0.12),_0_0_80px_rgba(0,255,65,0.04),_inset_0_0_60px_rgba(0,0,0,0.6)] before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-br before:from-primary/5 before:to-transparent before:pointer-events-none">
           <TerminalHeader />
           <div className="p-5 sm:p-7">
-            <PromptLine command="./identify_engineer.sh" />
+            <PromptLine command="whoami" />
             <h1 className="font-headline text-clamp-hero font-black text-primary tracking-[5px] my-3.5 animate-glitch leading-none">
               {HERO_DATA.name}
             </h1>
@@ -53,7 +53,7 @@ const Hero = () => {
               {HERO_DATA.title}
             </div>
             <div className="mt-4">
-              <PromptLine command="cat ./about.md" />
+              <PromptLine command="cat /etc/bio.txt" />
             </div>
             <div className="text-custom-text-dim text-[0.76rem] leading-loose max-w-2xl mt-3 mb-4 space-y-1">
               {HERO_DATA.about.map((line, index) => (
@@ -62,7 +62,7 @@ const Hero = () => {
                 </p>
               ))}
             </div>
-            <PromptLine command="sudo hire_me --immediately" showCursor />
+            <PromptLine command="./contact --priority high" showCursor />
             <div className="flex gap-2 flex-wrap mt-5">
               {HERO_DATA.buttons.map(({ href, label, primary }) => (
                 <Link
