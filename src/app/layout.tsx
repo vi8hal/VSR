@@ -6,7 +6,7 @@ import AsciiDeco from '@/components/ascii-deco';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: '11xC0DE_V // PORTFOLIO',
+  title: '11xC0DE_V',
   description: 'Vishal Singh - Consultant & Backend Developer Portfolio',
 };
 
