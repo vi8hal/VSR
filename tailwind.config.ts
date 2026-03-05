@@ -16,6 +16,9 @@ export default {
       },
     },
     extend: {
+      fontSize: {
+        'clamp-hero': 'clamp(3.5rem, 12vw, 8rem)',
+      },
       fontFamily: {
         body: ['"Share Tech Mono"', 'monospace'],
         headline: ['Orbitron', 'sans-serif'],
