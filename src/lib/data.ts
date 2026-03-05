@@ -16,7 +16,7 @@ export const NAV_LINKS: NavLink[] = [
 
 export const HERO_DATA = {
   name: 'VISHAL SINGH',
-  title: '// CONSULTANT & BACKEND DEVELOPER | IIT MADRAS ALUMNI',
+  title: '// BACKEND DEVELOPER | CONSULTANT  | IIT MADRAS ALUMNI',
   about: [
     'Backend Developer with expertise in scalable server-side applications & operations management.',
     'Proficient in strategic planning, data analysis & coordinating cross-functional teams.',
